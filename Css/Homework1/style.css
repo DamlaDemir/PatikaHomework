@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+    padding-left: 0;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+}
+
+.container h1 {
+    color:#D83A56;
+}
+
+.container h2 {
+    color:#A239EA;
+}
+
+.container h3 {
+    color:#FFC947;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:25px;
+    list-style: none;
+}
+
+.instruments-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.products li {
+    text-align: center;
+    margin-bottom:30px;
+}
+
