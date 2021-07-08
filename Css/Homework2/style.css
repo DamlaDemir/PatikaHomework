@@ -1,0 +1,215 @@
+ul {
+    list-style-type: none;
+  }
+  
+  /* Navigation Css Start  */
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav > ul {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-left: 0px;
+  }
+  
+  .headerli {
+    margin: 8px;
+  }
+  
+  .pic {
+    margin-top: 0px;
+  }
+  
+  .pic > a > img {
+    margin-right: 1px;
+    border-radius: 50%;
+  }
+  
+  .products > a > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+  }
+  /* Navigation Css End  */
+  
+  /* Content Css Start  */
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 24px;
+  }
+  
+  .search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .search-img > img {
+    width: 20px;
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+  }
+  
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+    width: 480px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .buttons > a > button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #5f6368;
+  }
+  
+  .buttons > a > button:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* Content Css End  */
+  
+  /* Footer Css Start  */
+  .footer {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer > ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  /* Footer Css End */
